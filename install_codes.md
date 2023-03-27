@@ -1,12 +1,13 @@
-
 git clone Fluid2d and pyRSW. To copy-paste from your computer to the virtual desktop, use the copy-paste interactive window on the left
 
 > git clone https://github.com/pvthinker/Fluid2d.git
+
 > git clone https://github.com/pvthinker/pyRSW.git
 
 create the conda environement (this step may fail in that case, execute the next step). It takes a few minutes to download everything. It’s a bit a shame to have to download all these packages in your $HOME but that’s how it works.
 
 > cd Fluid2d
+
 > conda create --name fluid2d --file requirements.txt
 
 if conda create fails
@@ -46,11 +47,15 @@ complete this environement with
 now install pyRSW
 
 > cd
+
 > cd Codes/pyRSW
+
 > ./install.sh
 
 make Python aware and you’re good to run it
 
 > source ~/.pyrsw/activate.sh
+
 > cd myexp/dipole
+
 > python3 dipole.py
